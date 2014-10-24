@@ -4,7 +4,7 @@ INCLUDE = -I/usr/incude -I/usr/local/include
 LIB_DIR = -L/usr/lib -L/usr/local/lib
 LIB =
 OPT = -O0 -g3 -Wall -fmessage-length=0 -fprofile-arcs -ftest-coverage
-TARGET = a.out
+TARGET = gameOfLife
 include productionSources.mk
 include productionObjects.mk
 
@@ -22,7 +22,7 @@ clean:
 
 
 TEST_CC = g++
-TEST_TARGET = a.outTest
+TEST_TARGET = gameOfLifeTest
 TEST_INCLUDE = -I../test -I.
 TEST_LIB = -lgtest
 TEST_OPT = -O0 -g3 -Wall -fmessage-length=0 -pg -fprofile-arcs -ftest-coverage
