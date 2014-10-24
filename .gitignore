@@ -27,5 +27,11 @@
 *.i*86
 *.x86_64
 *.hex
+
+# For Debug
+*.gcda
+*.gcno
+
+# Eclipse Setting
 /.cproject
 /.project
